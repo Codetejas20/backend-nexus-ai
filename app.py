@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Gemini client
-client = genai.Client(api_key= "AIzaSyAKaoTVKdOfN9n7RLhWAMWheFUDU6LOYD4")
+client = genai.Client(api_key= "AIzaSyCvoD-HJWlh6HsIqaLmZ2IxbFxfxC3shVk")
 
 @app.route("/chat", methods=["POST"])
 def chat():
